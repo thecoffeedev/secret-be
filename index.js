@@ -119,5 +119,5 @@ router.delete("/delete-message", async (req, res) => {
 });
 
 router.listen(port, () =>
-  console.log(`::: server is UP and running on port ${port} :::`)
+  console.log(`:::: server is UP and running on port ${port} ::::`)
 );
